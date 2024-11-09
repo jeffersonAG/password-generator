@@ -2,6 +2,7 @@ import random
 import string
 import hashlib
 import os
+import Django
 
 # Función para generar una contraseña personalizada
 def generar_contraseña_personalizada():

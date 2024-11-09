@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexagonal Terminal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="T">
+
+    </div>
+   <div class="hex-container">
+    <div class="hex-terminal">
+        <div class="terminal-header">
+        
+        </div>
+        <div class="terminal-content">
+            <p>Generated Password<span class="cursor"></span></p>
+        </div>
+        <div class="Button_simulation " id="button_terminal">
+            <button class="button close" title="Cerrar">✖</button> <!-- Botón de cerrar -->
+            <button class="button minimize" title="Minimizar">−</button> <!-- Botón de minimizar -->
+            <button class="button maximize" title="Maximizar">□</button> <!-- Botón de maximizar -->
+        </div>
+
+        
+        <div class="varchat" id="varchat_password"></div>
+        <input type="text" id="message-input"  />
+    
+        <div class="Button_password" id="button_generated">
+            <button class="button generated" onclick="generatePassword()" title="Generate password">Generate Password</button>
+        </div>
+    </div>
+    
+        <script src="index.js">
+
+        </script>
+        
+    </div>
+</body>
+</html>
